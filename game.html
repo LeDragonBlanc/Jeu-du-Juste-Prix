@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeu du Juste Prix</title>
+</head>
+<body>
+    <script src="js.js"></script>
+    <center>
+        <a href="index.html"><img src="ULTRA.png" alt="Logo"></a>
+        <h1>J'ai choisi un nombre entre 1 et 100...</h1>
+        <h4>A toi de le deviner :)</h4>
+        <p>Entre un nombre : <input type="number" id="choice"></p>
+        <button onclick="CheckNumber()">Valider</button>
+        <p><strong id="helphrase"></strong></p>
+        <p id="help">Aide : <strong id="min">0</strong> < Ton Nombre < <strong id="max">100</strong></p>
+        <button id="victory" onclick="location.reload()"></button>
+    </center>
+</body>
+</html>

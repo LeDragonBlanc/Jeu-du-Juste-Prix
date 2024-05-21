@@ -1,0 +1,27 @@
+html {
+    background-color: #003285;
+}
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+h1 {
+    color: #FFDA78;
+}
+h4 {
+    color: #FFDA78;
+}
+p {
+    color: #FFDA78;
+}
+a {
+    background-color: #2A629A;
+    border-radius: 30px;
+    color: #FFDA78;
+}
+button {
+    background-color: #2A629A;
+    border-radius: 30px;
+    color: #FFDA78;
+}
